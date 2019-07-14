@@ -1,5 +1,5 @@
 # --------------
-#Code starts here
+#Code starts here        Smallest Palindrome
 def palindrome(num):
     flag=1
     copy = num
@@ -15,7 +15,7 @@ def palindrome(num):
 
 
 
-# --------------
+# --------------        Anagram Scramble
 #Code starts here
 def a_scramble(str_1,str_2):
     x = str_1
@@ -38,7 +38,7 @@ def a_scramble(str_1,str_2):
 
 
 
-# --------------
+# --------------        Fibonacci Check
 #Code starts here
 def check_fib(num):
     li = []
@@ -61,7 +61,7 @@ def check_fib(num):
 
 
 
-# --------------
+# --------------        String Compression
 #Code starts here
 def compress(word):
     word = word.lower()
@@ -87,7 +87,7 @@ def compress(word):
     return ans
 
 
-# --------------
+# --------------        K-Distinct
 #Code starts here
 def k_distinct(string,k):
     at = []
